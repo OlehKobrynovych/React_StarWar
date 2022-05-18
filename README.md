@@ -2,7 +2,7 @@
 
 The React_StarWar API is a RESTful and GraphQL API based on the television show Rick and Morty. You will have access to about hundreds of characters, images, locations and episodes. The React_StarWar API is filled with canonical information as seen on the TV show.
 
-https://OlehKobrynovych.github.io/React_films_API_Redux
+https://OlehKobrynovych.github.io/React_StarWar
 
 
 ## Table of contents
@@ -15,7 +15,7 @@ https://OlehKobrynovych.github.io/React_films_API_Redux
 
 First clone this repository.
 ```bash
-$ git clone https://github.com/OlehKobrynovych/React_films_API_Redux.git
+$ git clone https://github.com/OlehKobrynovych/React_StarWar.git
 ```
 
 Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
@@ -29,7 +29,8 @@ $ npm start # or yarn start
 ```
 
 ## Description
-This is a simple react app using public [`Rick and Morty API`](https://rickandmortyapi.com/).
+This is a simple react app using public [`StarWar API`](https://swapi.dev/api/),
+ [`Foto StarWar API`](https://starwars-visualguide.com).
 
 
 ## Technologies
@@ -38,7 +39,7 @@ Project uses:
 * React-redux (useDispatch, useSelector)
 * Redux-thunk
 * React-router (useNavigate, useLocation, useParams)
-* React-Bootstrap
-* Styled-components
 * Axios 
+* Material UI
+* Styled-components
 * LocalStorage 
