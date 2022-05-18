@@ -10,6 +10,8 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux'
 import { store } from './store/index'
 
+import 'react-slideshow-image/dist/styles.css'
+
 ReactDOM.render(
   // <React.StrictMode>
     <Provider store={store}>

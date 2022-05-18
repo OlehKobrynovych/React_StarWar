@@ -1,4 +1,4 @@
-
+@import "react-slideshow-image/dist/styles.css";
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -32,4 +32,68 @@ body {
 .CardPeople:hover {
   transform: scale(1.05);
 }
+
+.CardPlanet:hover {
+  transform: scale(1.05);
+}
+
+/* -----------Slider--- */
+/* .carouselFilms-wrapper {
+  width: 250px;
+  position: relative;
+}
+
+.carouselFilms-window {
+  overflow: hidden;
+  display: flex;
+  width: 25px;
+  height: 100%;
+}
+
+.carouselFilm-items {
+  height: 100%;
+  
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+ 
+} */
+
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
  

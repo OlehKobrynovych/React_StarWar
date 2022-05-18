@@ -15,7 +15,7 @@ const CardPlanets = ({item}) => {
 
     return (
         <div>
-            <Card sx={{ maxWidth: 345 }} onClick={handleChange}>
+            <Card  className='CardPlanet' sx={{ maxWidth: 345 }} onClick={handleChange}>
                     <CardActionArea>
                         <CardMedia
                             component="img"

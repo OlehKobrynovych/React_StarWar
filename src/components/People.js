@@ -1,3 +1,4 @@
+import { Box } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import {useParams } from "react-router-dom";
@@ -36,32 +37,37 @@ const People = () => {
     },[])
 
     return (
-        <div style={{display: 'flex'}} >
+        // <Box style={{display: 'flex'}} >
+        <Box>
 
             { people.id ? 
             <>
-                <div>
-                    <img 
-                    style={{width: '250px'}} 
-                    src={`https://starwars-visualguide.com/assets/img/characters/${people.id}.jpg`}
-                    />        
-                </div>
-                <div>
-                    <p>Name {people.name},</p>
-                    <p>Height {people.height},</p>
-                    <p>Mass {people.mass},</p>
-                    <p>Hair_color {people.hair_color},</p>
-                    <p>Skin_color {people.skin_color},</p>
-                    <p>Eye_color {people.eye_color},</p>
-                    <p>Birth_year {people.birth_year},</p>
-                    <p>Gender {people.gender},</p>
-                </div>
-                <CarouselFilms peopleFilms={peopleFilms}/>
+                <Box display="flex"  >
+                    <Box mr={4}>
+                        <img 
+                        style={{width: '250px'}} 
+                        src={`https://starwars-visualguide.com/assets/img/characters/${people.id}.jpg`}
+                        />        
+                    </Box>
+                    <Box>
+                        <p>Name: {people.name},</p>
+                        <p>Height: {people.height},</p>
+                        <p>Mass: {people.mass},</p>
+                        <p>Hair Color: {people.hair_color},</p>
+                        <p>Skin Color: {people.skin_color},</p>
+                        <p>Eye Color: {people.eye_color},</p>
+                        <p>Birth Year: {people.birth_year},</p>
+                        <p>Gender: {people.gender},</p>
+                    </Box>
+                </Box>
+                <Box display="flex" justifyContent="center" >
+                    <CarouselFilms peopleFilms={peopleFilms}/>
+                </Box>
             </>
-             : <div>Not Item</div> }
+             : <Box>Not Item</Box> }
 
 
-        </div>
+        </Box>
     )
 }
 

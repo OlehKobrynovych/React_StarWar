@@ -1,29 +1,31 @@
-import React, { useState } from "react";
-import {Box} from '@mui/material';
+import React, { useState, useEffect } from "react";
+import {Box, Slide} from '@mui/material';
+
 
 const CarouselFilms = ({peopleFilms}) => {
     
     console.log('CarouselFilms');
 
-    // const [slides, setSlides] = useState([])
-
-    // setSlides(peopleFilms.map( el => `https://starwars-visualguide.com/assets/img/films/${el}.jpg` ))
+    // const [page, setPage] = useState([]);
     
     // useEffect(()=>{
-    //     dispatch(getSlidesThunk(id))
-    //  },[slides])
+    //     setPage(peopleFilms.map( (el, index) => (
+    //         <img 
+    //             style={{width: '250px'}} 
+    //             src={`https://starwars-visualguide.com/assets/img/films/${el}.jpg`}
+    //             />
+    //     )))
+    //  }, [page])
 
     return (
         <Box my={2}>
 
-            {peopleFilms.map( (el, index) => (
-                <div key={index}>
-                   <img 
-                    style={{width: '250px'}} 
-                    src={`https://starwars-visualguide.com/assets/img/films/${el}.jpg`}
-                    /> 
-                </div>
-            ))}
+                        {peopleFilms.map( (el, index) => (
+                            <img 
+                                style={{width: '250px'}} 
+                                src={`https://starwars-visualguide.com/assets/img/films/${el}.jpg`}
+                                /> 
+                        ))}
            
         </Box>
     )
