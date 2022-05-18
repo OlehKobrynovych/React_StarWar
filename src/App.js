@@ -17,6 +17,7 @@ const Planet = React.lazy(() => import('./components/Planet'));
 function App() {
 
   console.log('App');
+  
 
   return (
         <Container>
