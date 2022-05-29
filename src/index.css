@@ -14,7 +14,9 @@ code {
 }
 
 body {
-  background-color: chocolate;
+  background-image: url(../src/img/star.jpg);
+  background-size: cover;
+  /* background-color: chocolate; */
   margin: 0 auto;
   padding: 0;
 }
@@ -37,50 +39,6 @@ body {
   transform: scale(1.05);
 }
 
-/* -----------Slider--- */
-/* .carouselFilms-wrapper {
-  width: 250px;
-  position: relative;
-}
-
-.carouselFilms-window {
-  overflow: hidden;
-  display: flex;
-  width: 25px;
-  height: 100%;
-}
-
-.carouselFilm-items {
-  height: 100%;
-  
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
- 
-} */
-
-
 .each-slide > div {
   display: flex;
   align-items: center;
@@ -96,4 +54,67 @@ body {
   text-align: center;
 }
 
- 
+.dashboard {
+  /* display: flex; */
+  justify-content: center;
+}
+
+.dashboard__theme-btn {
+  display: block;
+  width: 35%;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 15px;
+  transition: all .4s;
+}
+
+.dashboard__theme-btn:hover {
+  transform: scale(1.15);
+}
+
+.dashboard__title {
+  text-align: center;
+  font-size: 17vw;
+	font-family: Impact, Charcoal, sans-serif;
+	background-image: url('../src/img/fonTitle.jpg');
+	background-position: center;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: #0000;
+}
+
+/* .dashboard__title {
+  font-size: 100px;
+} */
+
+.dashboard__btn {
+  margin: 10px;
+	font-family: Arial;
+	color: #FFFFFF;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px #3866a3 solid;
+	padding: 10px 18px;
+	background: linear-gradient(180deg, #1737d4 33%, #63B8EE 93%);
+	text-shadow: 1px 1px 1px #528ecc;
+	box-shadow: inset 1px 1px 2px 0px #bbdaf7;
+	cursor: pointer;
+	display: inline-block;
+	align-items: center;
+}
+
+.dashboard__btn:hover {
+	background: linear-gradient(180deg, #63B8EE 33%, #1737d4 93%);
+}
+
+.dashboard__btn-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.dashboard__ask {
+  display: block;
+  color: aqua;
+  text-align: center;
+  font-size: 20px;
+}
