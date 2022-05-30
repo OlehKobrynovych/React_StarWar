@@ -6,6 +6,8 @@ import { getPlanetsThunk } from "../store/planets_reducer";
 import CardPlanets from "./CardPlanets";
 import Pagination from "./Pagination";
 import Search from "./Search";
+import Loading from "./Loading";
+
 
 
 const Planets = () => {
@@ -57,10 +59,13 @@ const Planets = () => {
 
             <Pagination count={Math.ceil(count/10)} page={page} handlePage={handlePage} />
             
-            <Grid container spacing={2}>
-                { planets.length ? planets.map(el => <Grid key={el.id} item xs={12} sm={6} md={4} lg={3}>
-                    <CardPlanets item={el} /></Grid>) : <div>Not Items</div> }
-            </Grid>
+            {
+                planets.lengths ? <Loading/> : 
+                    <Grid container spacing={2}>
+                        { planets.length ? planets.map(el => <Grid key={el.id} item xs={12} sm={6} md={4} lg={3}>
+                            <CardPlanets item={el} /></Grid>) : <div>Not Items</div> }
+                    </Grid>
+            }
         </div>
     )
 }

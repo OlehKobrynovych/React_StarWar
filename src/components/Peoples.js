@@ -6,6 +6,7 @@ import { getPeoplesThunk } from "../store/peoples_reducer";
 import CardPeople from "./CardPeople";
 import Pagination from "./Pagination";
 import Search from "./Search";
+import Loading from "./Loading";
 
 const Peoples = () => {
     const dispatch = useDispatch()
@@ -58,10 +59,13 @@ const Peoples = () => {
 
             <Pagination count={Math.ceil(count/10)} page={page} handlePage={handlePage} />
 
-            <Grid container spacing={2}>
-                { peoples.length ? peoples.map(el => <Grid key={el.id} item xs={12} sm={6} md={4} lg={3}>
-                    <CardPeople item={el} /></Grid>) : <div>Not Items</div> }
-            </Grid>
+            {
+                peoples.lengths ? <Loading/> : 
+                    <Grid container spacing={2}>
+                        { peoples.length ? peoples.map(el => <Grid key={el.id} item xs={12} sm={6} md={4} lg={3}>
+                            <CardPeople item={el} /></Grid>) : <div>Not Items</div> }
+                    </Grid>
+            }
 
             <Pagination count={Math.ceil(count/10)} page={page} handlePage={handlePage} />
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbarr from './components/Navbarr';
+import Loading from './components/Loading';
 
 // import Dashboard from './components/Dashboard';
 // import Peoples from './components/Peoples';
@@ -22,7 +23,7 @@ function App() {
   return (
         <Container>
             <Navbarr />
-            <React.Suspense fallback={<div>Loading...</div>}>
+            <React.Suspense fallback={<Loading />}>
                 <Routes>
                     <Route path="/dashboard" element={<Dashboard />} />
                     <Route path="/peoples" element={<Peoples />} />
