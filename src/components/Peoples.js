@@ -53,7 +53,8 @@ const Peoples = () => {
     
     return (
         <div>
-            <Search search={search} handleSearch={handleSearch} />
+            
+            <Search  search={search} handleSearch={handleSearch} />
 
             <Pagination count={Math.ceil(count/10)} page={page} handlePage={handlePage} />
 

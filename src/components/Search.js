@@ -51,8 +51,14 @@ const Search = ({search, handleSearch}) => {
     console.log('Search');
 
     return (
-      <Box my={2}>
-        <SearchWrap >
+      <Box   sx={{
+        width: 300,
+        '&:hover': {
+          backgroundColor: 'primary.main',
+          opacity: [0.9, 0.8, 0.7],
+        },
+      }}>
+        <SearchWrap  className='search-input' >
             <SearchIconWrapper>
               <SearchIcon />
             </SearchIconWrapper>

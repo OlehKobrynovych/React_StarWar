@@ -30,7 +30,7 @@ const Planet = () => {
                     src={`https://starwars-visualguide.com/assets/img/planets/${id}.jpg`} />        
                     {/* src={`https://starwars-visualguide.com/assets/img/planets/5.jpg`} />         */}
                 </div>
-                <div>
+                <div className='planet__wrap'>
                     <p>Name {planet.name},</p>
                     <p>Rotation Period {planet.rotation_period},</p>
                     <p>Orbital Period {planet.orbital_period},</p>

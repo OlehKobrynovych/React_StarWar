@@ -49,7 +49,7 @@ const People = () => {
                         src={`https://starwars-visualguide.com/assets/img/characters/${people.id}.jpg`}
                         />        
                     </Box>
-                    <Box>
+                    <Box  className='people__text'>
                         <p>Name: {people.name},</p>
                         <p>Height: {people.height},</p>
                         <p>Mass: {people.mass},</p>

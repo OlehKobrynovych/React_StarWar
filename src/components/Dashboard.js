@@ -23,8 +23,10 @@ const Dashboard = () => {
                 <button className="dashboard__btn" onClick={()=>handlerChang('peoples')} >Peoples</button>
                 <button className='dashboard__btn' onClick={()=>handlerChang('planets')} >Planets</button>
             </div>
-            <img className='dashboard__theme-btn' src={darck} />
-            <img className='dashboard__theme-btn' src={light} />
+            <div className='dashboard__theme-btn-wrap' >
+                <img className='dashboard__theme-btn' src={darck} />
+                <img className='dashboard__theme-btn' src={light} />
+            </div>
         </div>
     )
 }
