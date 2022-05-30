@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/React_StarWar/static/css/main.9aba9a75.css",
-    "main.js": "/React_StarWar/static/js/main.efaba671.js",
+    "main.css": "/React_StarWar/static/css/main.47790297.css",
+    "main.js": "/React_StarWar/static/js/main.cc742b16.js",
     "static/js/929.a3ef2fd4.chunk.js": "/React_StarWar/static/js/929.a3ef2fd4.chunk.js",
-    "static/js/185.ccef2398.chunk.js": "/React_StarWar/static/js/185.ccef2398.chunk.js",
-    "static/js/736.587af058.chunk.js": "/React_StarWar/static/js/736.587af058.chunk.js",
+    "static/js/185.a1ac1ee7.chunk.js": "/React_StarWar/static/js/185.a1ac1ee7.chunk.js",
+    "static/js/736.cf24fb97.chunk.js": "/React_StarWar/static/js/736.cf24fb97.chunk.js",
     "static/js/748.48867dc4.chunk.js": "/React_StarWar/static/js/748.48867dc4.chunk.js",
     "static/js/896.59f0c3dd.chunk.js": "/React_StarWar/static/js/896.59f0c3dd.chunk.js",
     "static/js/787.28cb0dcd.chunk.js": "/React_StarWar/static/js/787.28cb0dcd.chunk.js",
@@ -12,18 +12,18 @@
     "static/media/star.jpg": "/React_StarWar/static/media/star.2ced2dab49c85836e51a.jpg",
     "static/media/darck.jpg": "/React_StarWar/static/media/darck.f732bc7e1ef7dfebe732.jpg",
     "index.html": "/React_StarWar/index.html",
-    "main.9aba9a75.css.map": "/React_StarWar/static/css/main.9aba9a75.css.map",
-    "main.efaba671.js.map": "/React_StarWar/static/js/main.efaba671.js.map",
+    "main.47790297.css.map": "/React_StarWar/static/css/main.47790297.css.map",
+    "main.cc742b16.js.map": "/React_StarWar/static/js/main.cc742b16.js.map",
     "929.a3ef2fd4.chunk.js.map": "/React_StarWar/static/js/929.a3ef2fd4.chunk.js.map",
-    "185.ccef2398.chunk.js.map": "/React_StarWar/static/js/185.ccef2398.chunk.js.map",
-    "736.587af058.chunk.js.map": "/React_StarWar/static/js/736.587af058.chunk.js.map",
+    "185.a1ac1ee7.chunk.js.map": "/React_StarWar/static/js/185.a1ac1ee7.chunk.js.map",
+    "736.cf24fb97.chunk.js.map": "/React_StarWar/static/js/736.cf24fb97.chunk.js.map",
     "748.48867dc4.chunk.js.map": "/React_StarWar/static/js/748.48867dc4.chunk.js.map",
     "896.59f0c3dd.chunk.js.map": "/React_StarWar/static/js/896.59f0c3dd.chunk.js.map",
     "787.28cb0dcd.chunk.js.map": "/React_StarWar/static/js/787.28cb0dcd.chunk.js.map",
     "530.05114a23.chunk.js.map": "/React_StarWar/static/js/530.05114a23.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aba9a75.css",
-    "static/js/main.efaba671.js"
+    "static/css/main.47790297.css",
+    "static/js/main.cc742b16.js"
   ]
 }
