@@ -1,6 +1,6 @@
 # React_StarWar
 
-The React_StarWar API is a RESTful and GraphQL API based on the television show Rick and Morty. You will have access to about hundreds of characters, images, locations and episodes. The React_StarWar API is filled with canonical information as seen on the TV show.
+The React_StarWar API You will have access to about hundreds of characters, images, locations and episodes. The React_StarWar API is filled with canonical information as seen on the TV show.
 
 https://OlehKobrynovych.github.io/React_StarWar
 
